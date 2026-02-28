@@ -28,7 +28,7 @@ export default function CaseStudies() {
           </div>
           <div className="mt-6 md:mt-0">
             <a href="https://www.instagram.com/reels/DFZkD_KsZQy/" className="inline-flex items-center gap-2 font-medium text-primary hover:text-primary/80 transition-colors">
-              View all work <ArrowUpRight size={20} />
+              View Link <ArrowUpRight size={20} />
             </a>
           </div>
         </div>
