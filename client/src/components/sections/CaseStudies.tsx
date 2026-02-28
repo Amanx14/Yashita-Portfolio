@@ -15,11 +15,6 @@ export default function CaseStudies() {
               Real metrics from campaigns that drove tangible brand growth and ROI.
             </p>
           </div>
-          <div className="mt-6 md:mt-0">
-            <a href="#" className="inline-flex items-center gap-2 font-medium text-primary hover:text-primary/80 transition-colors">
-              View all work <ArrowUpRight size={20} />
-            </a>
-          </div>
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-end mb-16">
@@ -32,7 +27,7 @@ export default function CaseStudies() {
             </p>
           </div>
           <div className="mt-6 md:mt-0">
-            <a href="#" className="inline-flex items-center gap-2 font-medium text-primary hover:text-primary/80 transition-colors">
+            <a href="https://www.instagram.com/reels/DFZkD_KsZQy/" className="inline-flex items-center gap-2 font-medium text-primary hover:text-primary/80 transition-colors">
               View all work <ArrowUpRight size={20} />
             </a>
           </div>
@@ -83,6 +78,8 @@ export default function CaseStudies() {
                     <p className="text-xs text-muted/80">Gharsoap</p>
                   </div>
                   <div className="text-right">
+                    <p className="text-primary font-bold text-sm">7000</p>
+                    <p className="text-[10px] text-muted/60 uppercase">Clicks</p>
                     <p className="text-primary font-bold text-sm">View</p>
                   </div>
                 </div>
@@ -96,6 +93,7 @@ export default function CaseStudies() {
                   <div className="text-right">
                     <p className="text-primary font-bold text-sm">10K+</p>
                     <p className="text-[10px] text-muted/60 uppercase">Clicks</p>
+                    <p className="text-primary font-bold text-sm">View</p>
                   </div>
                 </div>
               </a>
@@ -107,7 +105,8 @@ export default function CaseStudies() {
                   </div>
                   <div className="text-right">
                     <p className="text-primary font-bold text-sm">1000</p>
-                    <p className="text-[10px] text-muted/60 uppercase"></p>
+                    <p className="text-[10px] text-muted/60 uppercase">Clicks</p>
+                    <p className="text-primary font-bold text-sm">View</p>
                   </div>
                 </div>
               </a>
@@ -120,6 +119,7 @@ export default function CaseStudies() {
                   <div className="text-right">
                     <p className="text-primary font-bold text-sm">4000</p>
                     <p className="text-[10px] text-muted/60 uppercase">Clicks</p>
+                    <p className="text-primary font-bold text-sm">View</p>
                   </div>
                 </div>
               </a>
@@ -132,6 +132,7 @@ export default function CaseStudies() {
                   <div className="text-right">
                     <p className="text-primary font-bold text-sm">5000</p>
                     <p className="text-[10px] text-muted/60 uppercase">Clicks</p>
+                    <p className="text-primary font-bold text-sm">View</p>
                   </div>
                 </div>
               </a>
@@ -144,6 +145,7 @@ export default function CaseStudies() {
                   <div className="text-right">
                     <p className="text-primary font-bold text-sm">4000</p>
                     <p className="text-[10px] text-muted/60 uppercase">Clicks</p>
+                    <p className="text-primary font-bold text-sm">View</p>
                   </div>
                 </div>
               </a>
