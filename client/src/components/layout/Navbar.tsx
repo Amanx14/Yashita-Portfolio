@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         <Link href="/">
           <span className="font-heading font-bold text-xl tracking-tight text-foreground cursor-pointer">
-            Influencer<span className="text-primary">Consult.</span>
+            Yashita <span className="text-primary">Kulshrestha.</span>
           </span>
         </Link>
         
@@ -15,9 +15,6 @@ export default function Navbar() {
           <a href="#about" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">About</a>
           <a href="#services" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Services</a>
           <a href="#case-studies" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Case Studies</a>
-          <Button asChild className="rounded-full px-6">
-            <a href="#contact">Book Strategy Call</a>
-          </Button>
         </div>
       </div>
     </nav>

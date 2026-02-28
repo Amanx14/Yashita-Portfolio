@@ -15,14 +15,25 @@ export default function Contact() {
             Fill out the form below or <a href="#" className="text-primary underline underline-offset-4 hover:text-primary/80">book directly on my Calendly</a>.
           </p>
         </div>
-        
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="max-w-xl mx-auto bg-card p-8 md:p-12 rounded-3xl shadow-xl border border-border"
         >
-          <form className="space-y-6">
+          <div className="space-y-6 text-left mb-8">
+            <div>
+              <p className="text-sm font-medium text-muted-foreground">Email</p>
+              <a href="mailto:yashitakulshrestha96@gmail.com" className="text-lg font-bold text-foreground hover:text-primary transition-colors">yashitakulshrestha96@gmail.com</a>
+            </div>
+            <div>
+              <p className="text-sm font-medium text-muted-foreground">Location</p>
+              <p className="text-lg font-bold text-foreground">Noida, India</p>
+            </div>
+          </div>
+
+          <form className="space-y-6 pt-8 border-t border-border">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <label className="text-sm font-medium">Name</label>

@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-16">
-          <motion.div 
+          {/* <motion.div 
             className="w-full lg:w-5/12"
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -21,34 +21,43 @@ export default function About() {
                 className="rounded-2xl shadow-lg object-cover w-full h-[600px] grayscale-[20%]"
               />
             </div>
-          </motion.div>
-          
-          <motion.div 
-            className="w-full lg:w-7/12 space-y-6"
+          </motion.div> */}
+
+          <motion.div
+            className="w-full space-y-6"
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              Strategy rooted in data, executed with authenticity.
+              Driving Results with 1,00,000+ Creators Directly.
             </h2>
             <div className="w-12 h-1 bg-primary rounded-full"></div>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I’m an Influencer Marketing Consultant who believes that true growth comes from meaningful connections, not just vanity metrics. For over 8 years, I’ve helped D2C startups and established brands navigate the creator economy.
+              I am a Dynamic Influencer Marketing Professional with over 4+ years of experience leading full-funnel campaigns. Assistant Manager at Geo Ads Private Limited.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My approach bridges the gap between creative storytelling and hard analytics. Whether you're looking to scale acquisition or build a lasting community, we design campaigns that resonate and convert.
+              I've built campaigns generating over 250% ROAS, single-handedly managed campaigns for Policy Bazaar and Stable Money, and scaled a client's monthly influencer budget from ₹2 lakhs to ₹57 lakhs through demonstrated performance.
             </p>
-            
-            <div className="grid grid-cols-2 gap-8 pt-8 border-t border-border">
+
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 pt-8 border-t border-border">
               <div>
-                <h4 className="text-4xl font-bold text-foreground mb-2">150+</h4>
-                <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider">Campaigns Launched</p>
+                <h4 className="text-4xl font-bold text-foreground mb-2">1K+</h4>
+                <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider">Creators</p>
               </div>
               <div>
-                <h4 className="text-4xl font-bold text-foreground mb-2">$12M+</h4>
-                <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider">Revenue Generated</p>
+                <h4 className="text-4xl font-bold text-foreground mb-2">250%</h4>
+                <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider">Avg ROAS</p>
+              </div>
+              <div className="col-span-2 space-y-2">
+                <h4 className="text-xl font-bold text-foreground">Education</h4>
+                <div className="text-sm text-muted-foreground">
+                  <p><strong className="text-foreground">MBA (Marketing & HR)</strong></p>
+                  <p>GLA, Mathura (2019-2021)</p>
+                  <p className="mt-2"><strong className="text-foreground">Bachelor's In Economics</strong></p>
+                  <p>DayalBagh Educational Institute (2016-2019)</p>
+                </div>
               </div>
             </div>
           </motion.div>

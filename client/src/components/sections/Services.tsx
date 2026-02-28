@@ -4,23 +4,23 @@ import { Search, Target, Video, BarChart3 } from "lucide-react";
 const services = [
   {
     icon: Search,
-    title: "Influencer Discovery & Outreach",
-    description: "Identifying niche-relevant, brand-safe creators who align perfectly with your core values and audience demographics."
-  },
-  {
-    icon: Target,
-    title: "Campaign Strategy & Planning",
-    description: "Structuring cohesive campaign flights with precise audience targeting and optimized content alignment for maximum impact."
-  },
-  {
-    icon: Video,
-    title: "Content Collaboration & Execution",
-    description: "Briefing and managing creators across Reels, TikToks, and YouTube to ensure high-quality, authentic storytelling."
+    title: "Influencer Campaign Strategy",
+    description: "Designing end-to-end full-scale influencer campaigns that support marketing initiatives and brand collaborations."
   },
   {
     icon: BarChart3,
-    title: "Analytics & Reporting",
-    description: "Tracking granular metrics, from engagement rates to full-funnel ROI, providing actionable insights for scaling."
+    title: "Performance Marketing",
+    description: "Leading performance-based campaigns focusing on CPA and ROAS. Scaling campaigns with data-driven insights."
+  },
+  {
+    icon: Target,
+    title: "Community Building",
+    description: "Building, growing, and managing online and offline communities. Organizing webinars, workshops, and AMAs."
+  },
+  {
+    icon: Video,
+    title: "Public Relations",
+    description: "Building strategic relationships with media outlets, journalists, and high-profile influencers to maximize brand visibility."
   }
 ];
 
@@ -36,7 +36,7 @@ export default function Services() {
             A systematic, full-service approach to turning creators into your most powerful acquisition channel.
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <motion.div

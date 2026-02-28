@@ -14,30 +14,21 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] text-foreground">
-              Driving Real Growth Through <span className="text-primary italic font-serif">Authentic</span> Voices.
+              Driving Growth with Authentic<span className="text-primary italic font-serif"> <br></br>Influence.</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-lg">
-              Expert influencer strategy, brand-safe outreach, and data-driven performance tracking for brands ready to scale.
+              Data-driven influencer marketing strategies delivering up to 250% ROAS. Full-funnel campaigns across Instagram, YouTube, and Telegram.
             </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button size="lg" className="rounded-full h-14 px-8 text-base shadow-lg hover:-translate-y-1 transition-transform">
-                <a href="#contact">Book a Strategy Call</a>
-              </Button>
-              <Button size="lg" variant="outline" className="rounded-full h-14 px-8 text-base hover:-translate-y-1 transition-transform">
-                <a href="#case-studies">View Case Studies</a>
-              </Button>
-            </div>
             
             <div className="pt-8 flex items-center gap-4 text-sm font-medium text-muted-foreground">
               <div className="flex -space-x-3">
                 {[1, 2, 3].map((i) => (
                   <div key={i} className="w-10 h-10 rounded-full border-2 border-background bg-muted flex items-center justify-center overflow-hidden">
-                    <img src={`https://i.pravatar.cc/100?img=${i + 10}`} alt="avatar" />
+                    <img src={`https://i.pravatar.cc/100?img=${i + 15}`} alt="avatar" />
                   </div>
                 ))}
               </div>
-              <p>Trusted by 50+ scaling D2C brands</p>
+              <p>Trusted by 100+ Brands & 1,000+ Creators</p>
             </div>
           </motion.div>
           
@@ -60,8 +51,8 @@ export default function Hero() {
                   <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground font-medium">Avg. Campaign ROI</p>
-                  <p className="text-2xl font-bold text-foreground">324%</p>
+                  <p className="text-sm text-muted-foreground font-medium">Avg. Campaign ROAS</p>
+                  <p className="text-2xl font-bold text-foreground">250%</p>
                 </div>
               </div>
             </div>
